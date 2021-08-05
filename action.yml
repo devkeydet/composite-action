@@ -1,0 +1,9 @@
+name: 'Test'
+description: 'Test composite action'
+runs:
+  using: 'composite'
+  steps:
+    - name: Run a one-line script one
+      run: echo Hello, world one!
+    - name: Run a one-line script two
+      run: echo Hello, world two!
