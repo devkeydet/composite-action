@@ -3,9 +3,11 @@ description: 'Test composite action'
 runs:
   using: 'composite'
   steps:
-    - name: Run a one-line script one
+    - id: one
+      name: Run a one-line script one
       run: echo Hello, world one!
       shell: bash
-    - name: Run a one-line script two
+    - id: two
+      name: Run a one-line script two
       run: echo Hello, world two!
       shell: bash
