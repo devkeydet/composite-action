@@ -1,1 +1,1 @@
-# mimic-ado-templates
+# composite-action
