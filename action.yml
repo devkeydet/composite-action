@@ -1,7 +1,7 @@
 name: 'Test'
 description: 'Test composite action'
 runs:
-  using: 'includes'
+  using: 'composite'
   steps:
     - id: one
       name: Run a one-line script one
